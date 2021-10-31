@@ -50,6 +50,8 @@ de `package.json`.
 The capital is [city] and you can pay with [currency]'s
 ```
 
+* Houdt er rekening mee dat de meeste landen maar één valuta hebben, maar sommige landen (zoals Panama) hebben er twee.
+  In dat geval moet er: `and you can pay with [currency] and [currency]'s` komen te staan;
 * Er staat een zoekbalk op de pagina waarmee de gebruiker naar een land kan zoeken. De zoekopdracht wordt
   _getriggered_ zodra de gebruiker op de 'zoek'-knop klikt of op ENTER drukt. De inhoud van het invoerveld wordt na
   iedere zoekopdracht geleegd;
@@ -72,10 +74,11 @@ onderstaand stappenplan gebruiken:
    daaronder wordt weergegeven;
 7. Zorg ervoor dat er een afbeelding van een vlag naast de naam van het land komt te staan;
 8. Schrijf een functie die, ongeacht of er één of twee valuta's gebruikt worden, eenn string teruggeeft. _Tip_: dit kun
-   je checken door bijvoorbeeld de informatie over `aruba` op te halen.
+   je checken door bijvoorbeeld de informatie over `panama` op te halen.
     - **1 valuta**: and you can pay with [currency]'s
     - **2 valuta's**: and you can pay with [currency]'s and [currency]'s
-9. Gebruik deze functie om de tweede zin, `The capital is [city] and you can pay with [currency]'s` weer te geven.
+9. Gebruik deze functie de correcte zin, `The capital is [city] and you can pay with [currency] and [currency]'s` weer
+   te geven.
 10. Maak een inputveld met zoek-knop op de pagina. In plaats van dat de data wordt opgehaald wanneer de pagina laadt,
     zorg je er nu voor dat de data over Nederland pas wordt opgehaald wanneer de gebruiker op ENTER of 'Zoek' drukt;
 11. Zorg ervoor dat de waarde uit het inputveld wordt gebruikt als dynamische waarde in jouw GET-request;
@@ -87,9 +90,10 @@ onderstaand stappenplan gebruiken:
 
 **Bonusopdrachten**
 
-- Maak een functie die ongeacht het aantal talen die in een land gesproken worden, een string maakt:
-    - 1 taal: They speak [language]
-    - 2 talen: They speak [language] and [language]
-    - 3 talen: They speak [language], [language] and [language]
-    - etc. Voeg deze string toe aan de informatie die je per land op de pagina weergeeft;
+- Maak een functie die ongeacht het aantal talen die in een land gesproken worden, een string maakt. Voeg deze string
+  toe aan de informatie die je per land op de pagina weergeeft:
+    - 1 taal: `They speak [language]`
+    - 2 talen: `They speak [language] and [language]`
+    - 3 talen: `They speak [language], [language] and [language]`
+    - etc.
 - Make it look nice! 😍
