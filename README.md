@@ -75,8 +75,8 @@ onderstaand stappenplan gebruiken:
 7. Zorg ervoor dat er een afbeelding van een vlag naast de naam van het land komt te staan;
 8. Schrijf een functie die, ongeacht of er één of twee valuta's gebruikt worden, eenn string teruggeeft. _Tip_: dit kun
    je checken door bijvoorbeeld de informatie over `panama` op te halen.
-    - **1 valuta**: and you can pay with [currency]'s
-    - **2 valuta's**: and you can pay with [currency]'s and [currency]'s
+    - **1 valuta**: `and you can pay with [currency]'s`
+    - **2 valuta's**: `and you can pay with [currency]'s and [currency]'s`
 9. Gebruik deze functie de correcte zin, `The capital is [city] and you can pay with [currency] and [currency]'s` weer
    te geven.
 10. Maak een inputveld met zoek-knop op de pagina. In plaats van dat de data wordt opgehaald wanneer de pagina laadt,
