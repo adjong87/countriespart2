@@ -88,7 +88,7 @@ onderstaand stappenplan gebruiken:
     een ongeldige API call wordt gemaakt, zal de response in het catch blok terecht komen.
 14. Zorg er ook voor dat wanneer er daarna een geldig verzoek wordt gedaan, de foutmelding weer verdwenen is.
 
-**Bonusopdrachten**
+## Bonusopdrachten
 
 - Maak een functie die ongeacht het aantal talen die in een land gesproken worden, een string maakt. Voeg deze string
   toe aan de informatie die je per land op de pagina weergeeft:
