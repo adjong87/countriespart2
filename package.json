@@ -12,5 +12,8 @@
   "devDependencies": {
     "parcel": "^2.0.0",
     "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
   }
 }
